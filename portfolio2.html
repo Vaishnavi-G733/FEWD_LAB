@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!-- Bootstrap CSS (Downloaded) -->
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Portfolio Page</h2>
+        <form>
+            <div class="mb-3">
+                <label for="self-intro" class="form-label">Introduce Yourself:</label>
+                <textarea id="self-intro" class="form-control" name="self-intro" rows="3">Self-Introduction...</textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label for="skills" class="form-label">List Your Skills:</label>
+                <textarea id="skills" class="form-control" name="skills" rows="3" placeholder="List your skills here..."></textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label for="work-experiences" class="form-label">Work Experience & Projects:</label>
+                <textarea id="work-experiences" class="form-control" name="work-experiences" rows="4" placeholder="Include project names, descriptions, and Git links..."></textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label for="feedback" class="form-label">Feedback / Achievements:</label>
+                <textarea id="feedback" class="form-control" name="feedback" rows="3">List your Feedbacks/achievements...</textarea>
+            </div>
+            
+            <div class="mb-3">
+                <label for="education" class="form-label">Education:</label>
+                <textarea id="education" class="form-control" name="education" rows="3">Education Details...</textarea>
+            </div>
+            
+            <h4 class="mt-4">Contact Information</h4>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+            </div>
+            
+            <div class="mb-3">
+                <label for="linkedin" class="form-label">LinkedIn:</label>
+                <input type="url" id="linkedin" name="linkedin" class="form-control" placeholder="Enter LinkedIn profile URL">
+            </div>
+            
+            <div class="mb-3">
+                <label for="github" class="form-label">GitHub:</label>
+                <input type="url" id="github" name="github" class="form-control" placeholder="Enter GitHub profile URL">
+            </div>
+            
+            <div class="mb-3">
+                <label for="twitter" class="form-label">Twitter:</label>
+                <input type="url" id="twitter" name="twitter" class="form-control" placeholder="Enter Twitter profile URL">
+            </div>
+            
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS (Downloaded) -->
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
