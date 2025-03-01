@@ -3,87 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    
-    <!-- Bootstrap CSS (Downloaded) -->
-    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Vaishnavi G | Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <style>
         body {
             background-color: #f8f9fa;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             background: white;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
-        textarea {
-            resize: none;
+        .info-box {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            min-height: 50px;
+        }
+        .contact-box a {
+            text-decoration: none;
+            color: #0d6efd;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2 class="text-center">Portfolio Page</h2>
-        <form>
-            <div class="mb-3">
-                <label for="self-intro" class="form-label">Introduce Yourself:</label>
-                <textarea id="self-intro" class="form-control" name="self-intro" rows="3">Self-Introduction...</textarea>
-            </div>
-            
-            <div class="mb-3">
-                <label for="skills" class="form-label">List Your Skills:</label>
-                <textarea id="skills" class="form-control" name="skills" rows="3" placeholder="List your skills here..."></textarea>
-            </div>
-            
-            <div class="mb-3">
-                <label for="work-experiences" class="form-label">Work Experience & Projects:</label>
-                <textarea id="work-experiences" class="form-control" name="work-experiences" rows="4" placeholder="Include project names, descriptions, and Git links..."></textarea>
-            </div>
-            
-            <div class="mb-3">
-                <label for="feedback" class="form-label">Feedback / Achievements:</label>
-                <textarea id="feedback" class="form-control" name="feedback" rows="3">List your Feedbacks/achievements...</textarea>
-            </div>
-            
-            <div class="mb-3">
-                <label for="education" class="form-label">Education:</label>
-                <textarea id="education" class="form-control" name="education" rows="3">Education Details...</textarea>
-            </div>
-            
-            <h4 class="mt-4">Contact Information</h4>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
-            </div>
-            
-            <div class="mb-3">
-                <label for="phone" class="form-label">Phone:</label>
-                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
-            </div>
-            
-            <div class="mb-3">
-                <label for="linkedin" class="form-label">LinkedIn:</label>
-                <input type="url" id="linkedin" name="linkedin" class="form-control" placeholder="Enter LinkedIn profile URL">
-            </div>
-            
-            <div class="mb-3">
-                <label for="github" class="form-label">GitHub:</label>
-                <input type="url" id="github" name="github" class="form-control" placeholder="Enter GitHub profile URL">
-            </div>
-            
-            <div class="mb-3">
-                <label for="twitter" class="form-label">Twitter:</label>
-                <input type="url" id="twitter" name="twitter" class="form-control" placeholder="Enter Twitter profile URL">
-            </div>
-            
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
-        </form>
+        <h2 class="text-center">Vaishnavi Gaddamanugu</h2>
+        <p class="text-center">Hackathon Participant | AI Developer | Web Enthusiast</p>
+        
+        <h4 class="mt-4">Introduction</h4>
+        <div class="info-box">Passionate and motivated Computer Science Engineer with a keen interest in AI, Web Development, and problem-solving. Experienced in building AI-driven applications and participating in hackathons to solve real-world challenges.</div>
+        
+        <h4 class="mt-4">Skills</h4>
+        <div class="info-box">C/C++, Java, Python, JavaScript, HTML, CSS, SQL, Node.js, React JS, GCP, MongoDB, Express JS, Docker</div>
+        
+        <h4 class="mt-4">Education</h4>
+        <div class="info-box">
+            <strong>B.Tech in Computer Science & Engineering</strong><br>
+            Keshav Memorial Institute of Technology, Hyderabad (2022 - 2026) | CGPA: 7.26
+        </div>
+        
+        <h4 class="mt-4">Work Experience</h4>
+        <div class="info-box">
+            <strong>Intern | Osmania Technology Business Incubator (OTBI)</strong><br>
+            - Developed NeuroSupport, an AI-powered platform for individuals with autism & dyslexia.<br>
+            - Implemented NLP-based text simplification, emotion-aware sensory adaptations.<br>
+            - Used Hugging Face Transformers, TensorFlow.js, Web Extensions API.
+        </div>
+        
+        <h4 class="mt-4">Projects</h4>
+        <div class="info-box">
+            <strong>GenAI Med3D</strong> (KMIT Project, Dec 2024)<br>
+            - AI-powered web app performing lung segmentation, pulmonary nodule classification, and liver segmentation.<br>
+            - Used advanced 3D medical imaging techniques with GenAI.
+        </div>
+        <div class="info-box">
+            <strong>Mobile Diabetic App</strong> (Feb 2024)<br>
+            - ML-based healthcare app predicting diabetes with Decision Trees & Random Forest (77.16% accuracy).<br>
+            - Built using Flutter, Dart, Firebase, Flask, Firestore, GCP, AWS EC2.
+        </div>
+        
+        <h4 class="mt-4">Achievements</h4>
+        <div class="info-box">
+            - Pre-Finalist, <strong>GNU Hack-Arena 2024</strong> (Team Hellfire)<br>
+            - Hackathon Participant - Phase2 | Myntra HackerRamp: WeForShe 2024<br>
+            - Mobile Diabetic App - KMIT 2nd Year Project School
+        </div>
+        
+        <h4 class="mt-4">Certifications</h4>
+        <div class="info-box">
+            - Hackathon Participant - Phase2 | Myntra HackerRamp: WeForShe 2024<br>
+            - Mobile Diabetic App - KMIT 2nd Year Project School | Feb 2024<br>
+            - GenAI Med3D - KMIT 3rd Year Project School | Dec 2024
+        </div>
+        
+        <h4 class="mt-4">Contact Information</h4>
+        <div class="contact-box mb-3">
+            <strong>Email:</strong> g.vaishnavi37@gmail.com
+        </div>
+        <div class="contact-box mb-3">
+            <strong>Phone:</strong> +91 8790940520
+        </div>
+        <div class="contact-box mb-3">
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vaishnavi-gaddamanugu-89b8222a1/" target="_blank">Vaishnavi Gaddamanugu</a>
+        </div>
+        <div class="contact-box mb-3">
+            <strong>GitHub:</strong> <a href="https://github.com/Vaishnavi-G733" target="_blank">Vaishnavi-G733</a>
+        </div>
     </div>
 
-    <!-- Bootstrap JS (Downloaded) -->
-    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
